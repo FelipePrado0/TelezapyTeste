@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #e3f2fd 0%, #f0f8ff 100%);
+    color: #222;
+}
+.container {
+    max-width: 800px;
+    margin: 40px auto 0 auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 32px #1976d233;
+    padding: 32px 28px 18px 28px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+.header h1 {
+    color: #1976d2;
+    font-size: 2.5em;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+.subtitle {
+    color: #388e3c;
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+.main-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 36px;
+    justify-content: center;
+}
+.oxigenio-img {
+    width: 260px;
+    border-radius: 14px;
+    box-shadow: 0 2px 16px #1976d244;
+    margin-bottom: 12px;
+}
+.info-text {
+    flex: 1 1 300px;
+    min-width: 240px;
+}
+.info-text h2 {
+    color: #1976d2;
+    margin-top: 0;
+}
+.info-text ul {
+    background: #e3f2fd;
+    border-radius: 8px;
+    padding: 16px 22px;
+    margin: 18px 0 0 0;
+    box-shadow: 0 1px 6px #1976d211;
+    list-style: none;
+}
+.info-text ul li {
+    margin-bottom: 8px;
+    font-size: 1.05em;
+}
+.curiosidades {
+    background: #f5faff;
+    border-radius: 10px;
+    padding: 24px 18px 18px 18px;
+    margin-bottom: 28px;
+    box-shadow: 0 1px 8px #1976d211;
+}
+.curiosidades h2 {
+    color: #1976d2;
+    margin-top: 0;
+}
+.curiosidades ul {
+    margin: 0 0 18px 0;
+    padding-left: 18px;
+}
+.curiosidades ul li {
+    margin-bottom: 8px;
+    font-size: 1.05em;
+}
+#curiosidade-btn {
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px #1976d233;
+}
+#curiosidade-btn:hover {
+    background: #125ea2;
+}
+#curiosidade-extra {
+    margin-top: 16px;
+    font-style: italic;
+    color: #388e3c;
+    min-height: 24px;
+    transition: color 0.2s;
+}
+.footer {
+    text-align: center;
+    color: #888;
+    font-size: 0.98em;
+    margin-top: 18px;
+    padding-top: 10px;
+    border-top: 1px solid #e3f2fd;
+}
+@media (max-width: 700px) {
+    .container {
+        padding: 12px 4vw 8px 4vw;
+    }
+    .main-info {
+        flex-direction: column;
+        gap: 18px;
+    }
+    .oxigenio-img {
+        width: 90vw;
+        max-width: 320px;
+    }
+}
